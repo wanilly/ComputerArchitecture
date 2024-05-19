@@ -59,7 +59,7 @@ ex) ARM, MIPS, SPARC 등
 2. Data Transfer : I-format, Base addressing
 3. Branch : R-format, I-format, J-format, PC-relative addressing, Pseudo direct addressing
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/90ae62aa-ce7a-4749-9543-4443abcf2068/Untitled.png)
+![image](https://github.com/wanilly/ComputerArchitecture/assets/49769190/99fa1527-a071-4ef5-b10b-74540bfb43b7)
 
 ### Immediate addressing mode
 
@@ -106,11 +106,12 @@ PC기준 상대적인 위치 사용함. beq, bne conditional jump instruction이
 
 j(unconditional jump instruction) jump word 단위 - 하위 2비트를 생략하여 표현함.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/751b3bf6-76a0-4467-ac6e-6e98b5e9e5d4/Untitled.png)
+
+![image](https://github.com/wanilly/ComputerArchitecture/assets/49769190/75447865-224a-42ee-a037-7ec328b6dc59)
 
 1. R-type : Register ALU instruction, jr( unconditional jump register ), register addressing mode
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/55232512-cb64-4027-bd4d-f776faeb662c/Untitled.png)
+![image](https://github.com/wanilly/ComputerArchitecture/assets/49769190/51fa5c54-68c0-489d-aa53-fbd85b3dd6bb)
 
 > add $t0, $s1, $s2 → rd: $t0, rs: $s1, rt: $s2
 > 
@@ -123,7 +124,8 @@ funct 사용하는 이유?? → operation은 2^6 = 64 보다 휠씬 많음
 
 1. 🕐I-type → opcode | RS | RT | imm(constant)→16bits
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dcc7823f-e6e6-4622-9d48-0150b47773fc/Untitled.png)
+
+![image](https://github.com/wanilly/ComputerArchitecture/assets/49769190/6edddc14-9b98-4211-bd94-2723699fa738)
 
 - Data transfer instruction
     - base addressing mode → lw(load), sw(store)
@@ -146,7 +148,7 @@ Opcode | RS | RT | Imm(constant), offset ⇒ 35 | rs | rt | 32
 
 1. J-type 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/543b7b8f-929a-49ff-9c32-17b61c2f7a54/Untitled.png)
+![image](https://github.com/wanilly/ComputerArchitecture/assets/49769190/aea3a147-da19-40e9-94db-d1949cf095e8)
 
 - j, jal (unconditional jump instruction)
 - jump - 맨 하위 2비트 ⇒ 00
@@ -170,7 +172,8 @@ Opcode | RS | RT | Imm(constant), offset ⇒ 35 | rs | rt | 32
     
     subi → 존재 하지 않음 ⇒ addi $s2, $s1, -1
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d46ed30f-d22c-4e56-8218-0bea0c2ed7f3/Untitled.png)
+   ![image](https://github.com/wanilly/ComputerArchitecture/assets/49769190/6d7d1d89-f2a4-47fd-a3e2-0d54b45e8170)
+
     
 3. Logical
 
