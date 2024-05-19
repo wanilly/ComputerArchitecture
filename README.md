@@ -198,9 +198,9 @@ Opcode | RS | RT | Imm(constant), offset ⇒ 35 | rs | rt | 32
 
 **lw $s3, 1($0)**       # word1번지(1+0=1)에서 데이터를 가져와 $3레지스터에 저장해라.
 
-# F2F2AC07값이 $3에 저장됨
+F2F2AC07값이 $3에 저장됨
 
-# word1번지 : 0000 0001
+word1번지 : 0000 0001
 
 **01.02_store 명령어 (sw)**
 
@@ -208,7 +208,7 @@ Opcode | RS | RT | Imm(constant), offset ⇒ 35 | rs | rt | 32
 
 **sw $t4, 0x3($0)**    # t4레지스터 값을 word3번지((16진수)3+0 )에 저장
 
-# word 3번지 는 0000 00003
+word 3번지 는 0000 00003
 
 ### **Load/Store Architecture**
 
@@ -226,7 +226,8 @@ ex) 메모리에 있는 값과 레지스터에 있는 값을 곧 바로 더할 �
 
 피연산자를 레지스터에서 가져온다. 32개의 32bit 레지스터를 가짐.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9895ee20-9991-4084-b0d8-dab87080158e/Untitled.png)
+![image](https://github.com/wanilly/ComputerArchitecture/assets/49769190/22f183b6-ea64-411e-ac77-2ec900b9c68f)
+
 
 ### Mips Instruction
 
@@ -286,11 +287,15 @@ MIPS 명령어 해석 가능 / 기계어 변환 / 역변환 가능 /
 
 ❤️
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e49704d-1974-4f0e-a2f1-d40250080ef8/Untitled.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b0d48da5-e398-4e48-9f6f-95f42162ce21/Untitled.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/54ec45dc-815a-46c5-93d4-5368437e80ee/Untitled.png)
+![image](https://github.com/wanilly/ComputerArchitecture/assets/49769190/ac075f1b-c13c-476b-9dd7-24dfadfbe207)
+
+![image](https://github.com/wanilly/ComputerArchitecture/assets/49769190/427b00a3-adf7-4a32-a2d7-1a3dc3d482c0)
+
+![image](https://github.com/wanilly/ComputerArchitecture/assets/49769190/fa0c41b8-4861-4549-8b79-0bd49b8d8bd6)
+
+
 
 ### Performance
 
